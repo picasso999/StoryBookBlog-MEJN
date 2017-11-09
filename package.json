@@ -1,0 +1,15 @@
+{
+  "name": "blogstorybooks",
+  "version": "1.0.0",
+  "description": "App to share publicor write private stories",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Puranam Pradeep Picasso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.1"
+  }
+}
