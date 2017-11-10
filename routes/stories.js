@@ -80,7 +80,7 @@ router.get('/edit/:id', ensureAuthenticated, (req, res) => {
 
 //Process add Story
 router.post('/', (req, res) => {
-    res.send('sent');
+    
     let allowComments;
     if (req.body.allowComments) {
         allowComments = true;
